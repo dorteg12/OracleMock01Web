@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Team #4 Mock1 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="views/css/s1_style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+  
+</head>
+
+
+<body>
+    <div class="scroll_btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+                <div class="logo"><a href="#">O<span>racle</span></a></div>
+                <ul class="menu">
+                    <li><a href = "index.html" class="menu_btn">Home</a></li>
+                    <li><a href = "s1.html" class="menu_btn">Lab Demo</a></li>
+                   <!-- <li><a href = "media.html" class="menu_btn">Multimedia objects</a></li> -->
+                </ul>
+                <div class="menu_btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+        </div>
+    </nav>
+
+  <div class="side-bar">
+      <div class="menu2">
+        <div class="item">
+            <a  class="sub-btn" ><i class="fas fa-folder"></i>Introduction<i class="fas fa-angle-right dropdown"></i></a>
+            <div class="sub-menu">
+                <a href="s1.html#introduction" class="sub-item">Introduction</a>
+                <a href="s1.html#acknowledgements" class="sub-item" >Acknowledgements</a>
+            </div>
+          </div>
+        <div class="item">
+            <a class="sub-btn"><i class="fas fa-cloud"></i>Get Started<i class="fas fa-angle-right dropdown"></i></a>
+            <div class="sub-menu">
+                <a href="s1_getst.html#introduction" class="sub-item">Introduction</a>
+                <a href="s1_getst.html#task1" class="sub-item">Task 1: Create Your Free Trial Account</a>
+                <a href="s1_getst.html#task2" class="sub-item">Task 2: Sign in to Your Account</a>
+                <a href="s1_getst.html#acknowledgements" class="sub-item">Acknowledgements</a>
+            </div>
+        </div>
+        <div class="item">
+            <a class="sub-btn"><i class="fas fa-flask"></i>Lab 1: Creating Instances<i class="fas fa-angle-right dropdown"></i></a>
+            <div class="sub-menu">
+                <a href="s1_insta.html#introduction" class="sub-item">Introduction</a>
+                <a href="s1_insta.html#task1" class="sub-item">Task 1: Create a Compute Instance</a>
+                <a href="s1_insta.html#task2" class="sub-item">Task 2: Allowing HTTP connections to VCN</a>
+                <a href="s1_insta.html#task3" class="sub-item">Task 3: Connection to the Instances and Installing NginX HTTP Server</a>
+                <a href="s1_insta.html#acknowledgements" class="sub-item">Acknowledgements</a>
+            </div>
+        </div>
+        <div class="item">
+            <a class="sub-btn"><i class="fas fa-flask"></i>Lab 2: Creating a Zone and Setting up the Domain<i class="fas fa-angle-right dropdown"></i></a>
+            <div class="sub-menu">
+                <a href="s1_dns.html#introduction" class="sub-item">Introduction</a>
+                <a href="s1_dns.html#task1" class="sub-item">Task 1: Aquire a Domain</a>
+                <a href="s1_dns.html#task2" class="sub-item">Task 2: Create a Zone</a>
+                <a href="s1_dns.html#acknowledgements" class="sub-item">Acknowledgements</a>
+            </div>
+        </div>
+        <div class="item">
+            <a class="sub-btn"><i class="fas fa-flask"></i>Lab 3: Creating a Health Check<i class="fas fa-angle-right dropdown"></i></a>
+            <div class="sub-menu">
+                <a href="s1_hc.html#introduction" class="sub-item">Introduction</a>
+                <a href="s1_hc.html#task1" class="sub-item">Task 1: Creating a Health Check</a>
+                <a href="s1_hc.html#acknowledgements" class="sub-item">Acknowledgements</a>
+            </div>
+        </div>
+        <div class="item">
+            <a class="sub-btn"><i class="fas fa-flask"></i>Lab 4: Creating a Geolocation Steering Policy<i class="fas fa-angle-right dropdown"></i></a>
+            <div class="sub-menu">
+                <a href="s1_geo.html#introduction" class="sub-item">Introduction</a>
+                <a href="s1_geo.html#task1" class="sub-item">Task 1: Geolocation Steering Policy</a>
+                <a href="s1_geo.html#task2" class="sub-item">Task 2: Manage DNS Records</a>
+                <a href="s1_geo.html#acknowledgements" class="sub-item">Acknowledgements</a>
+            </div>
+        </div>
+      </div>
+  </div>
+
+<div id="contentBox" class="open" style="min-height: 730px;">
+    <article>
+        <section class="content">
+            <div class="max-width">
+                <h1 id="introduction" class="title">Introduction</h1>
+               
+                <p>
+                    Before you get started, you will need an Oracle Cloud account. 
+                    This 5-minute lab walks you through the steps of getting an Oracle Cloud Free Tier account and signing in.
+                </p>
+
+                <h2>Existing Cloud Accounts</h2>
+
+                <p>
+                    If you already have access to an Oracle Cloud account, including an Oracle Cloud account using Oracle Universal 
+                    Credits, skip to Task 2 to sign in to your cloud tenancy.
+                </p>
+
+                <h2>Two Cloud Offers in One</h2>
+
+                <p>
+                    Oracle Cloud Free Tier allows you to sign up for an Oracle Cloud account which provides a number of Always Free 
+                    services and a Free Trial with US$300 of free credit to use on all eligible Oracle Cloud Infrastructure services 
+                    for up to 30 days. The Always Free services are available for an unlimited period of time. The Free Trial services 
+                    may be used until your US$300 of free credits are consumed or the 30 days has expired, whichever comes first.
+                </p>
+
+                <p>
+                    <figure><img src="https://objectstorage.us-ashburn-1.oraclecloud.com/p/cj8ngbVFms0qVl-RQkH1FmGprCB7qOXsor4fY0ElLfGzcQqCV0UXJjcWdq1dApZU/n/orasenatdpltintegration01/b/bucket-mock01-pres/o/Intro/free_account.PNG"></figure>
+                </p>
+
+                <p>What you will need</p>
+                <ul class = "dots">
+                    <li>A valid email address</li>
+                    <li>Ability to receive SMS text verification (only if your email isn't recognized)</li>
+                </ul>
+
+                <blockquote>
+                    <p><strong>Note</strong>: Interfaces in the following screenshots may look different from the interfaces you will see.</p>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="max-width">
+                <h1 id="task1" class="title">Task1: Create Your Free Trial Account</h1>
+               
+                <p>
+                    If you already have a cloud account, skip to Task 2.
+                </p>
+                
+                <ol >
+                    <li><p>Open up a web browser to access the Oracle Cloud account registration form at <a href="https://signup.cloud.oracle.com" target="_blank">oracle.com/cloud/free</a>.</p>
+                    <p>You will be presented with a registration page.
+
+                       <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/cloud-infrastructure.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Enter the following information to create your Oracle Cloud Free Tier account.</p>
+                    <ul class = "dots">
+                    <li>Choose your <strong>Country</strong></li>
+                    <li>Enter your <strong>Name</strong> and <strong>Email</strong></li></ul></li>
+                    <li><p>Once you have entered a valid email address, select the <strong>Verify my email</strong> button.
+                    The screen will appear as follows after you select the button:
+                       <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/verify-email.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Go to your email. You will see an account validation email from Oracle in your inbox. The email will be similar to the following:
+                       <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/verification-mail.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Select the link (if possible) or copy and paste the link into your browser.</p></li>
+                    <li><p>Enter the following information to create your Oracle Cloud Free Tier account.</p>
+                    <ul class = "dots">
+                    <li>Choose a <strong>Password</strong></li>
+                    <li>Enter your <strong>Company Name</strong></li>
+                    <li>Your <strong>Cloud Account Name</strong> will generate automatically based on your inputs. You can change that name by entering a new value. Remember what you wrote. You'll need this name later to sign in.</li>
+                    <li>Choose a <strong>Home Region</strong>.  Your Home Region cannot be changed once you sign-up. Note: Based on the current design of the workshop and resource availability, it is recommended not to use the London region for this workshop at this time.</li>
+                    <li>Click <strong>Continue</strong>
+                    <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/account-info.png" alt="The content is described above." title=" "></figure></li></ul></li>
+                    <li><p>Enter your Address information.  Click <strong>Continue</strong>.
+                          <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/free-tier-address.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Choose your country and enter a mobile number for verification.   Click the <strong>Text me a code</strong> button.
+                          <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/free-tier-address-2.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Once you receive your code, enter it and click <strong>Verify My Code</strong>.
+                          <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/free-tier-address-4.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Click the <strong>Add payment verification method</strong> button.
+                          <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/free-tier-payment-1.png" alt="The content is described above." title=" "></figure>  </p></li>
+                    <li><p>Choose the verification method. In this case, click the <strong>Credit Card</strong> button. Enter your information and payment details.</p>
+                    <blockquote>
+                      <p><strong>Note:</strong> This is a free credit promotion account. You will not be charged unless you elect to upgrade the account.</p>
+                    </blockquote>
+                    <p><figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/free-tier-payment-2.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Once your payment verification is complete, review and accept the agreement by clicking the check box.  Click the <strong>Start my free trial</strong> button.</p>
+                    <p><figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/free-tier-agreement.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Your account is provisioning and should be available soon! You might want to log out as you wait for your account to be provisioned. You'll receive two emails from Oracle. One email will be the initial notification that provisioning is underway. The other email will be a notification that provisioning is complete. Here is a copy of the final notification:
+                       <figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/account-provisioned.png" alt="The content is described above." title=" "></figure></p></li>
+                    </ol>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="max-width">
+                <h1 id="task2" class="title">Task2: Sign in to Your Account</h1>
+               
+                <p>
+                    <em>
+                        Please note that while your tenancy is initially created, you will only see a direct login. 
+                        Once your tenancy is fully provisioned, you will see the screens as described below.
+                    </em>   
+                </p>
+                <ol>
+                    <li><p>Go to <a href="https://cloud.oracle.com" target="_blank">cloud.oracle.com</a>. Enter your Cloud Account Name and click <strong>Next</strong>. This is the name you chose while creating your account in the previous section. It's NOT your email address. If you've forgotten the name, see the confirmation email.</p>
+                    <p><figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/cloud-oracle.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>Click <strong>Continue</strong> to sign in using the <em>"oraclecloudidentityservice"</em>.</p>
+                    <p><figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/cloud-login-tenant-single-sigon.png" alt="The content is described above." title=" "></figure></p>
+                    <p>When you sign up for an Oracle Cloud account, a user is created for you in Oracle Identity Cloud Service with the username and password you selected at sign up. You can use this single sign-on option to sign in to Oracle Cloud Infrastructure and then navigate to other Oracle Cloud services without re-authenticating. This user has administrator privileges for all the Oracle Cloud services included with your account.</p></li>
+                    <li><p>Enter your Cloud Account credentials and click <strong>Sign In</strong>. Your user name is your email address. The password is what you chose when you signed up for an account.</p>
+                    <p><figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/oci-signin-single-signon.png" alt="The content is described above." title=" "></figure></p></li>
+                    <li><p>You are now signed in to Oracle Cloud!</p>
+                    <p><figure><img src="https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/images/oci-console-home-page.png" alt="The content is described above." title=" "></figure></p></li>
+                </ol>
+                
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="max-width">
+            <h1 id="acknowledgements" class="title" >Acknowledgements</h1>
+            <ul class = "dots">
+            <li><strong>Author</strong> - Emmanuel Leroy, Senior Technical Product Manager</li>
+            <li><strong>Last Updated By/Date</strong> - Emmanuel Leroy, May 2021</li>
+            <li><strong>Reference LiveLab Link</strong> - <a href="https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/workshop-attendee-2?p210_workshop_id=648&p210_type=1&session=3620363907818">Click Here</a></li>
+            </ul>
+        </section>
+                    
+                    
+
+    </article>
+</div>
+  
+<footer>
+    <span>Created By <a>David Ortega</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+  </footer>
+      <script src="views/js/script.js"></script>
+    </body>
+    </html>
